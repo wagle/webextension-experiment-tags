@@ -4,6 +4,12 @@
   "version": "0.1",
   "description": "WebExtension Experiment API to get access/read bookmark tags in Firefox.",
   "homepage_url": "https://github.com/azappella/webextension-experiment-tags",
+  "applications": {
+    "gecko": {
+      "id": "tagsAPI@cognophysics.org",
+      "strict_min_version": "42.0"
+    }
+  },
   "permissions": [
     "bookmarks",
     "tabs"
