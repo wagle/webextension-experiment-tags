@@ -1,4 +1,9 @@
-
+This version
+(https://github.com/wagle/webextension-experiment-tags/tree/wagle-prototype-0001-snapshot-0001)
+was tweaked by Perry Wagle (wagle@cognophysics.org) on 2018-08-16
+to get its demo to work (see
+https://github.com/wagle/tagspace-tng/tree/wagle-prototype-0001-snapshot-0001).
+ 
 # WebExtension Experiment For Firefox Tags
 
 Since the [WebExtensions API does not currently support bookmarks tags](https://bugzilla.mozilla.org/show_bug.cgi?id=1225916#c12), I created this [WebExtension Experiment API](https://firefox-source-docs.mozilla.org/toolkit/components/extensions/webextensions/index.html) to expose some of the internal Firefox API for tags, thus enabling users/developers to access/read/retrieve bookmark tags in their own extensions.
