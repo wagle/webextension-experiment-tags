@@ -18,14 +18,15 @@ this.tags = class extends ExtensionAPI {
         tags: {
           async getURIsForTag(tag) {
             const URIs = taggingSvc.getURIsForTag(tag);
-            // console.log(typeof URIs, URIs.toString(), XPCNativeWrapper.unwrap(URIs));
+            console.log("API getURIsForTag: ", typeof URIs, URIs.toString(), XPCNativeWrapper.unwrap(URIs));
             return XPCNativeWrapper.unwrap(URIs).map(uri => uri.spec);
           },
-          async getTagsForURI(URI) {
-            const tags = taggingSvc.getTagsForURI(makeURI(URI));
-            // console.log(typeof tags, tags.toString(), XPCNativeWrapper.unwrap(tags));
-            return tags;
-          },
+            async getTagsForURI(URI) {
+                const tags = taggingSvc.getTagsForURI(makeURI(URI));
+                console.log("API getTagsForURI: ", typeof tags, tags.toString(), XPCNativeWrapper.unwrap(tags));
+                return tags;
+//            return XPCNativeWrapper.unwrap(tags);
+            },
         },
       },
     };

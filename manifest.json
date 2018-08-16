@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
   "name": "WebExtension Experiment Tags",
-  "version": "0.1",
+  "version": "0.1.w",
   "description": "WebExtension Experiment API to get access/read bookmark tags in Firefox.",
-  "homepage_url": "https://github.com/azappella/webextension-experiment-tags",
+  "homepage_url": "https://github.com/wagle/webextension-experiment-tags",
   "applications": {
     "gecko": {
-      "id": "tagsAPI@cognophysics.org",
+      "id": "tags@experiments.addons.mozilla.org",
       "strict_min_version": "42.0"
     }
   },
