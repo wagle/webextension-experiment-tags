@@ -46,6 +46,13 @@
             "description": "The URI for which to return the tags."
           }
         ]
+      },
+      {
+        "name": "getAllTags",
+        "type": "function",
+        "async": true,
+        "description": "This method retrieves all tags.",
+        "parameters": []
       }
     ]
   }
